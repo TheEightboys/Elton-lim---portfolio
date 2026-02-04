@@ -1692,6 +1692,19 @@ strong {
     }
 }
 
+
+/* Contact Section Visibility Fix */
+#contact,
+.contact {
+    opacity: 1 !important;
+    transform: none !important;
+}
+
+.contact-content .glass-card {
+    opacity: 1 !important;
+    transform: none !important;
+}
+
 /* 375px "GOLDEN RULE" */
 @media (max-width: 380px) {
     .container {
